@@ -1,0 +1,346 @@
+Request method:	GET
+Request URI:	http://samples.openweathermap.org/data/2.5/weather?q=London&appid=b1b15e88fa797225412429c1c50c122a1
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=London
+				appid=b1b15e88fa797225412429c1c50c122a1
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty/1.9.7.1
+Date: Thu, 20 Oct 2022 13:56:39 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+ETag: W/"e70c27085ed41de5321252b16c9582fe"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: b94953dc-b441-42df-8c21-d0ee144160cd
+X-Runtime: 0.001027
+Content-Encoding: gzip
+
+{
+    "coord": {
+        "lon": -0.13,
+        "lat": 51.51
+    },
+    "weather": [
+        {
+            "id": 300,
+            "main": "Drizzle",
+            "description": "light intensity drizzle",
+            "icon": "09d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 280.32,
+        "pressure": 1012,
+        "humidity": 81,
+        "temp_min": 279.15,
+        "temp_max": 281.15
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 4.1,
+        "deg": 80
+    },
+    "clouds": {
+        "all": 90
+    },
+    "dt": 1485789600,
+    "sys": {
+        "type": 1,
+        "id": 5091,
+        "message": 0.0103,
+        "country": "GB",
+        "sunrise": 1485762037,
+        "sunset": 1485794875
+    },
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+}
+Request method:	GET
+Request URI:	http://samples.openweathermap.org/data/2.5/weather?q=London%2Cuk&appid=b1b15e88fa797225412429c1c50c122a1
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=London,uk
+				appid=b1b15e88fa797225412429c1c50c122a1
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty/1.9.7.1
+Date: Thu, 20 Oct 2022 13:56:42 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+ETag: W/"e70c27085ed41de5321252b16c9582fe"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 2314f036-4b8d-4e31-97be-ff7167dbcc9c
+X-Runtime: 0.001035
+Content-Encoding: gzip
+
+{
+    "coord": {
+        "lon": -0.13,
+        "lat": 51.51
+    },
+    "weather": [
+        {
+            "id": 300,
+            "main": "Drizzle",
+            "description": "light intensity drizzle",
+            "icon": "09d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 280.32,
+        "pressure": 1012,
+        "humidity": 81,
+        "temp_min": 279.15,
+        "temp_max": 281.15
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 4.1,
+        "deg": 80
+    },
+    "clouds": {
+        "all": 90
+    },
+    "dt": 1485789600,
+    "sys": {
+        "type": 1,
+        "id": 5091,
+        "message": 0.0103,
+        "country": "GB",
+        "sunrise": 1485762037,
+        "sunset": 1485794875
+    },
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+}
+Request method:	GET
+Request URI:	http://samples.openweathermap.org/data/2.5/weather?id=2172797&appid=b1b15e88fa797225412429c1c50c122a1
+Proxy:			<none>
+Request params:	<none>
+Query params:	id=2172797
+				appid=b1b15e88fa797225412429c1c50c122a1
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty/1.9.7.1
+Date: Thu, 20 Oct 2022 13:56:44 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+ETag: W/"66e5e56fb6f214e5989cf85af8c5cba6"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 961fa03f-42ea-4581-9260-90d9d2f223df
+X-Runtime: 0.001475
+Content-Encoding: gzip
+
+{
+    "coord": {
+        "lon": 145.77,
+        "lat": -16.92
+    },
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 300.15,
+        "pressure": 1007,
+        "humidity": 74,
+        "temp_min": 300.15,
+        "temp_max": 300.15
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.6,
+        "deg": 160
+    },
+    "clouds": {
+        "all": 40
+    },
+    "dt": 1485790200,
+    "sys": {
+        "type": 1,
+        "id": 8166,
+        "message": 0.2064,
+        "country": "AU",
+        "sunrise": 1485720272,
+        "sunset": 1485766550
+    },
+    "id": 2172797,
+    "name": "Cairns",
+    "cod": 200
+}
+Request method:	GET
+Request URI:	http://samples.openweathermap.org/data/2.5/weather?zip=94040%2Cus&appid=b1b15e88fa797225412429c1c50c122a1
+Proxy:			<none>
+Request params:	<none>
+Query params:	zip=94040,us
+				appid=b1b15e88fa797225412429c1c50c122a1
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty/1.9.7.1
+Date: Thu, 20 Oct 2022 13:56:45 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+ETag: W/"976b6b8e3d8f00f29bdb16dfb372e3d5"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 8df8e7f8-8c78-4a90-96c5-d265e0468d91
+X-Runtime: 0.001443
+Content-Encoding: gzip
+
+{
+    "coord": {
+        "lon": -122.09,
+        "lat": 37.39
+    },
+    "weather": [
+        {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 280.44,
+        "pressure": 1017,
+        "humidity": 61,
+        "temp_min": 279.15,
+        "temp_max": 281.15
+    },
+    "visibility": 12874,
+    "wind": {
+        "speed": 8.2,
+        "deg": 340,
+        "gust": 11.3
+    },
+    "clouds": {
+        "all": 1
+    },
+    "dt": 1519061700,
+    "sys": {
+        "type": 1,
+        "id": 392,
+        "message": 0.0027,
+        "country": "US",
+        "sunrise": 1519051894,
+        "sunset": 1519091585
+    },
+    "id": 0,
+    "name": "Mountain View",
+    "cod": 200
+}
+Request method:	GET
+Request URI:	http://samples.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=b1b15e88fa797225412429c1c50c122a1
+Proxy:			<none>
+Request params:	<none>
+Query params:	lat=35
+				lon=139
+				appid=b1b15e88fa797225412429c1c50c122a1
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty/1.9.7.1
+Date: Thu, 20 Oct 2022 13:56:46 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+ETag: W/"7f3dac2a055009b73f30538fb2208269"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: bc6c15f7-591d-42a6-a6a1-dfefae843b77
+X-Runtime: 0.001420
+Content-Encoding: gzip
+
+{
+    "coord": {
+        "lon": 139.01,
+        "lat": 35.02
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 285.514,
+        "pressure": 1013.75,
+        "humidity": 100,
+        "temp_min": 285.514,
+        "temp_max": 285.514,
+        "sea_level": 1023.22,
+        "grnd_level": 1013.75
+    },
+    "wind": {
+        "speed": 5.52,
+        "deg": 311
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1485792967,
+    "sys": {
+        "message": 0.0025,
+        "country": "JP",
+        "sunrise": 1485726240,
+        "sunset": 1485763863
+    },
+    "id": 1907296,
+    "name": "Tawarano",
+    "cod": 200
+}
